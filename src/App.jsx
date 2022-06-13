@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Tooltip } from 'antd'
-import "./assets/base.css"
+import "./assets/base.less"
 import { SearchOutlined } from "@ant-design/icons" 
 import { Outlet } from 'react-router-dom'
 

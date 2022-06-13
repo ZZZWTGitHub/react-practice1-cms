@@ -1,1 +1,8 @@
-@import '~antd/dist/antd.css'
+@import '~antd/dist/antd.css';
+body {
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #333;
+  background: #eee;
+}
+/*# sourceMappingURL=./base.css.map */

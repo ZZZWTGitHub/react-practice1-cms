@@ -1,0 +1,20 @@
+.login {
+  background-color: #fff;
+  background: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg36.51tietu.net%2Fpic%2F2016-122322%2F20161223220443nk4b4pn3r0c33560.jpg&refer=http%3A%2F%2Fimg36.51tietu.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657605331&t=4bda953bc02f62cd3e62ec77a7f4f2b9") 0 0 / 100% no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login .loginBox {
+  width: 500px;
+  background-color: rgba(239, 239, 239, 0.8);
+  padding-bottom: 15px;
+}
+.login .loginBox img {
+  display: block;
+  margin: 10px auto 20px 38%;
+  height: 50px;
+}
+/*# sourceMappingURL=./login.css.map */

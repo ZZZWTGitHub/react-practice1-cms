@@ -3,11 +3,16 @@ import { Button, Form, Input } from 'antd';
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import "./less/Login.less"
 import logoImg from "../assets/logo_moviee.png"
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function Register() {
+  const navigate = useNavigate()
+
   const onFinish = (values) => {
     console.log('Success:', values);
+    setTimeout(() => {
+      navigate('/login')
+    }, 1000)
   };
 
   const onFinishFailed = (errorInfo) => {
